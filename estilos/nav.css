@@ -1,0 +1,59 @@
+nav
+{
+	margin: 0px 0px 0px 0px;
+}
+
+ul.menu {list-style:none; margin:0; padding:0}
+ul.menu * {margin:0; padding:0}
+ul.menu a {display:block; color:#000; text-decoration:none}
+ul.menu li 
+{
+	position:relative;
+	margin-right:0px;
+	float:left;
+}
+
+ul.menu .menulink 
+{
+	border:0;
+	margin: 0px 0px 0px 5px;
+	padding:5px 14px 0px 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 24px;
+	color: #ffffff;
+	height:28px;
+	background:#be1622;
+	opacity:1;
+}
+
+ul.menu .menulink:hover, ul.menu .menuhover
+{
+	background:#9d121d;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	box-shadow: 0px 3px 2px #850f18;
+	-webkit-box-shadow: 0px 3px 2px #850f18;
+ 	-moz-box-shadow: 0px 3px 2px #850f18;
+	filter: shadow(color=#850f18, direction=90, strength=3);
+}
+
+ul.menu .menuresaltado 
+{
+	border:1px solid #fff;
+	padding:20px 0px 0px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: lighter;
+	font-style: normal;
+	line-height: 24px;
+	color: #22505a;
+	width:160px;
+	height:100px;
+	background:#333333;
+	opacity:1;
+}

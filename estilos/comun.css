@@ -1,0 +1,615 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body
+{
+	margin: 0px;
+	padding:0;
+	height:100%;
+    background-color:#ffffff;
+}
+
+.wrapper
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	clear:both;
+}
+
+/* CSS HEADER */
+header
+{
+	margin: 0px auto;
+	width: 100%;
+	height: 130px;
+	background-color:#be1622;
+}
+
+#cab
+{
+	width: 1170px;
+	margin: 0px auto;
+}
+
+#logo
+{
+	width: 234px;
+	margin: 0px 20px 15px 10px;
+	float:left;
+}
+
+#logo img
+{
+	border:0px;
+}
+
+#banner
+{
+	width: 906px;
+	margin: 7px 0px 5px 0px;
+	float:left;
+	text-align:right;
+}
+
+#banner img
+{
+	border:0px;
+}
+
+/* CSS SECCION CABECERO */
+
+#seccion_fondo_cabecero
+{
+	width: 100%;
+	height: 500px;
+	background-color: #7f8c8c;
+}
+
+#seccion_cabecero
+{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+#seccion_cabecero #slide
+{
+	width: 900px;
+	float:left;
+}
+
+#seccion_cabecero #revista
+{
+	width: 254px;
+	height: 500px;
+	padding: 0px 8px 0px 8px;
+	float:left;
+	text-align:center;
+	background-color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: #747474;
+}
+
+#seccion_cabecero #revista img
+{
+	margin-top: 10px;
+	border: 0;
+}
+
+/* CSS SECCION PROGRAMA */
+
+#seccion_programa
+{
+	margin: 30px auto 30px auto;
+	padding: 20px 90px 15px 30px;
+	width: 1050px;
+	height: 70px;
+	background-color: #ececec;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+}
+
+#seccion_programa img
+{
+	border: 0;
+	margin: -20px 0px 0px 0px;
+	float: right;
+}
+
+/* CSS SECCION ARTICULOS */
+
+#seccion_articulos
+{
+	width: 1170px;
+	margin: 0px auto;
+	height: 340px;
+}
+
+#articulo_contenedor
+{
+	float:left;
+}
+
+#articulo
+{
+	padding: 30px 15px 0px 15px;
+	width: 240px;
+	height:285px;
+	z-index:1;
+	position:absolute;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	box-shadow: 0px 4px 0px #e5e6e6;
+	-webkit-box-shadow: 0px 4px 0px #e5e6e6;
+ 	-moz-box-shadow: 0px 4px 0px #e5e6e6;
+	filter: shadow(color=#e5e6e6, direction=90, strength=4);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 20px;
+	text-align:center;
+}
+
+#articulo_contenedor img
+{
+	border: 0;
+	z-index: 1000;
+	margin: 290px 0px 0px 35px;
+	position: absolute;
+}
+
+/* CSS SECCION HERMANDAD */
+
+#seccion_hermandad
+{
+	margin: 30px auto 30px auto;
+	padding: 75px 0 60px 0px;
+	width: 100%;
+	background-color: #ececec;
+	text-align:center;
+}
+
+#seccion_hermandad img
+{
+	border: 0;
+	margin: 20px 0px 0px 0px;
+}
+
+/* CSS SECCION GALERIA IMAGENES */
+
+#seccion_galeria
+{
+	width: 1170px;
+	margin: 0px auto;
+	height: 450px;
+	text-align:center;
+}
+
+/* CSS SECCION PATROCINADORES */
+
+#seccion_patrocinadores
+{
+	width: 1170px;
+	margin: 0px auto;
+	height: 200px;
+}
+
+#patrocinador
+{
+	padding: 20px 20px 20px 20px;
+	width: 330px;
+	height:160px;
+	float:left;
+	position:absolute;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador img
+{
+	border: solid #7f8c8c 1px;
+}
+
+#patrocinador2
+{
+	padding: 20px 20px 20px 20px;
+	width: 330px;
+	height:160px;
+	float:left;
+	position:absolute;
+	background-color: #7f8c8c;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador2 img
+{
+	border: solid #f8f8f8 1px;
+}
+
+/* CSS CONTACTO */
+
+#fondo_contacto
+{
+	height: 130px;
+	padding:30px 0px 0px 0px;
+	width: 100%;
+	background-color: #be1622;
+	margin-top:20px;
+}
+
+#contacto
+{
+	width: 900px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#contacto img
+{
+	border: 0;
+}
+
+/* CSS FOOTER */
+
+footer
+{
+	margin: 0px auto;
+	position: relative;
+	/*margin-top: -110px;*/
+	height: 70px;
+	clear:both;
+	width:100%;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	background-color:#ab141f;
+}
+
+footer img
+{
+	border: 0;
+	margin: 10px 0px -5px 5px;
+}
+
+/* CSS TEXTOS COMUNES */
+
+.texto
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 16px;
+}
+
+.texto20
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 20px;
+	font-weight:bold;
+}
+
+.texto26
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 26px;
+	font-weight:bold;
+}
+
+.texto-blanco
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+	line-height: 16px;
+}
+
+.texto-rojo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #be1622;
+	line-height: 16px;
+}
+
+.texto-rojo a
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #be1622;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+.texto-rojo a:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #be1622;
+	line-height: 16px;
+	text-decoration: underline;
+}
+
+.cabecero14
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #be1622;
+	line-height: 20px;
+}
+
+.cabecero16
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #be1622;
+}
+
+.cabecero32
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	font-style: normal;
+	color: #be1622;
+}
+
+.cabecero40
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	color: #be1622;
+}
+
+h1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	font-style: normal;
+	color: #be1622;
+	line-height: 32px;
+}
+
+/* CSS SECCION CONTENIDOS INTERIORES */
+#seccion_contenidos
+{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+#seccion_contenidos #contenido_interior
+{
+	width: 840px;
+	margin-right:60px;
+}
+
+#seccion_contenidos #revista
+{
+	width: 254px;
+	height: 500px;
+	padding: 0px 8px 0px 8px;
+	text-align:center;
+	background-color:#FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: #747474;
+}
+
+#seccion_contenidos #revista img
+{
+	margin-top: 10px;
+	border: 0;
+}
+
+/* CSS SECCION CONTENIDOS INTERIORES CAJAS NOTICIAS*/
+
+#noticia_int_contenedor
+{
+	float:left;
+}
+
+#noticia_int
+{
+	padding: 30px 15px 0px 15px;
+	width: 240px;
+	height:285px;
+	z-index:1;
+	position:absolute;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	box-shadow: 0px 4px 0px #e5e6e6;
+	-webkit-box-shadow: 0px 4px 0px #e5e6e6;
+ 	-moz-box-shadow: 0px 4px 0px #e5e6e6;
+	filter: shadow(color=#e5e6e6, direction=90, strength=4);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 20px;
+	text-align:center;
+}
+
+#noticia_int_contenedor img
+{
+	border: 0;
+	z-index: 1000;
+	margin: 290px 0px 0px 35px;
+	position: absolute;
+}
+
+#noticia_int_h_contenedor
+{
+	float: none;
+	margin-top:20px;
+}
+
+#noticia_int_h
+{
+	padding: 15px 15px 15px 15px;
+	width: 780px;
+	height:80px;
+	z-index:1;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	box-shadow: 0px 4px 0px #e5e6e6;
+	-webkit-box-shadow: 0px 4px 0px #e5e6e6;
+ 	-moz-box-shadow: 0px 4px 0px #e5e6e6;
+	filter: shadow(color=#e5e6e6, direction=90, strength=4);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color: #777777;
+	line-height: 20px;
+}
+
+#noticia_int_h_contenedor img
+{
+	border: 0;
+	float:right;
+	margin: 10px 0px 0px 0px;
+}
+
+/* CSS SECCION CONTENIDOS INTERIORES PATROCINADORES */
+#seccion_patrocinadores_interior
+{
+	width: 100%;
+}
+
+#patrocinador_interior_principal
+{
+	padding: 20px 20px 20px 20px;
+	margin: 0px 5px 20px 5px; 
+	width: 370px;
+	height:160px;
+	float:left;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador_interior_principal img
+{
+	border: solid #7f8c8c 1px;
+}
+
+#patrocinador_interior_banner
+{
+	padding: 20px 20px 20px 20px;
+	margin: 0px 5px 20px 5px; 
+	width: 790px;
+	height:140px;
+	float:left;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador_interior_banner img
+{
+	border: solid #7f8c8c 1px;
+}
+
+
+#patrocinador_interior_1
+{
+	padding: 10px 10px 10px 10px;
+	margin: 0px 5px 10px 5px; 
+	width: 250px;
+	height:140px;
+	float:left;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador_interior_1 img
+{
+	border: solid #7f8c8c 1px;
+}
+
+#patrocinador_interior_2
+{
+	padding: 10px 10px 10px 10px;
+	margin: 0px 5px 10px 5px; 
+	width: 180px;
+	height:100px;
+	float:left;
+	background-color: #f8f8f8;
+	border-radius:7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius : 7px;
+	behavior: url(js/redondo.htc);
+	text-align:center;
+}
+
+#patrocinador_interior_2 img
+{
+	border: solid #7f8c8c 1px;
+}
